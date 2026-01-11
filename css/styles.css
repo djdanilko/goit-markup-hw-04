@@ -192,6 +192,7 @@ a {
   background-position: center;
   max-width: 1440px;
   margin: 0 auto;
+  background-size: cover;
 }
 
 .hero-container {
@@ -477,6 +478,7 @@ a {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
 
@@ -493,7 +495,6 @@ a {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding: 16px 0 16px 0;
 }
 
 .footer-text {
@@ -544,6 +545,9 @@ a {
 .footer-icons-text {
   margin-bottom: 16px;
   color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-icons-and-text {
